@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+nav #nav-items p {
+    width: 16%;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    float: left;
+}
+
+div#nav-items::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav #nav-items #logo {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+#obrazek {
+    margin-top: 20px;
+    margin: 50px 50px 50px 120px;
+}
+
+#middle {
+    margin-top: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+header #text {
+    margin-left: 80px;
+}
+
+header #text #tytul {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+header #text #button {
+    margin-left: 84%;
+    font-size: 2rem;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10%;
+    color: rgb(80, 83, 85);
+}
+
+header #text p {
+    font-size: 1.25rem;
+}
+
+menu img {
+    width: 15%;
+    margin: 0 10px 0 10px;
+}
+
+#p1 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    margin-left: 100px;
+}
+
+#p2 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    margin-left: 175px;
+}
+
+#p3 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    margin-left: 160px;
+}
+
+#p4 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    margin-left: 155px;
+}
+
+#p5 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    margin-left: 155px;
+}
+
+#p6 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    margin-left: 170px;
+}
+
+article {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#art {
+    display: inline-block;
+    width: 33%;
+    padding: 1px
+}
+
+#button2 {
+    margin-left: 75%;
+    font-size: 2rem;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10%;
+    color: rgb(80, 83, 85);
+}
+
+#article-p {
+    font-weight: bolder;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 1.25rem;
+    text-align: center;
+}
